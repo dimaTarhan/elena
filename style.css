@@ -509,10 +509,9 @@ footer{
     .header_title{
         font-size: 70px;
     }
-
 }
 
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
     .content_width{
         width: 100%;
     }
@@ -525,9 +524,6 @@ footer{
         width: 75%;
     }
 
-    .header_title{
-        font-size: 50px;
-    }
 
     .categories_content{
         display: block;
@@ -594,14 +590,75 @@ footer{
         padding-top: 6%;
         padding-bottom: 7%;
     }
-
-
-    .footer_block{
-        font-size: 14px;
-    }
 }
 
-@media (max-width: 539px) and (min-width: 320px){
+@media (max-device-width: 539px){
+    .categories_content{
+        display: block;
+    }
+
+    .categories_content_users{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
+    .templates_content{
+        display: block;
+    }
+
+    .templates_content_layer{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
+    .templates_content {
+        text-align: center;
+    }
+
+    .fully_block_content{
+        text-align: center;
+    }
+
+    .examples_content{
+        display: block;
+        text-align: center;
+    }
+
+    .examples_content_block{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
+    .review_content{
+        display: block;
+        text-align: center;
+    }
+
+    .review_content_block{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
+    .themeforest_content{
+        display: block;
+        text-align: center;
+    }
+
+    .themeforest_content_block {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
     .content_width{
         width: 100%;
     }
@@ -634,15 +691,6 @@ footer{
 
     .header_menu a:hover {
         outline: 2px solid white;
-    }
-
-
-    .header_title{
-        font-size: 32px;
-    }
-
-    .header_title p{
-        font-size: 14px;
     }
 
     .header_button{
@@ -679,65 +727,17 @@ footer{
     .footer_block p {
         margin-top: 0;
         padding-top: 5%;
-        font-size: 16px;
     }
 
 
     .footer_block:last-child{
         width: 100%;
         padding-top: 2%;
+        padding-bottom: 3%;
         text-align: center;
     }
 
     .social_link a{
         margin-right: 30px;
-    }
-
-    .categories_content_users p{
-        font-size: 14px;
-    }
-
-    .templates_content_layer span{
-        font-size: 16px;
-    }
-
-    .templates_content_layer p{
-        font-size: 14px;
-    }
-
-    .fully_block_title{
-        font-size: 16px;
-    }
-
-    .fully_block_text{
-        font-size: 14px;
-    }
-
-    .examples_content_block span{
-        font-size: 16px;
-    }
-
-    .examples_content_block p{
-        font-size: 14px;
-    }
-
-    .review_content_block span{
-        font-size: 16px;
-    }
-
-    .review_content_block p{
-        font-size: 14px;
-    }
-
-    .themeforest_content_block span{
-        font-size: 16px;
-    }
-
-    .themeforest_content_block p{
-        font-size: 14px;
-    }
-
-    .websites_title{
-        font-size: 16px;
     }
 }
