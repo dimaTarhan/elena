@@ -53,7 +53,7 @@ header{
 }
 
 .header_menu a:hover {
-    outline: 2px solid white;
+    opacity: 0.8;
 }
 
 
@@ -96,10 +96,11 @@ header{
 
 .categories_content{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .categories_content_users{
-    width: calc(100%/3);
+    width: 30%;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
