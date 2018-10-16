@@ -12,25 +12,23 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-header{
-    height: 100%;
-    background: url("images/background_main.png") no-repeat center fixed;
-    background-size: cover;
-}
-
 .content_width{
     width: 75%;
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    height: 100%;
+    background: url("images/background_main.png") fixed;
+    background-size: cover;
+}
+
 .header_container{
+    margin: auto;
     text-align: center;
     text-transform: uppercase;
     color: white;
-}
-
-.header_logo{
-    padding-top: 5%;
 }
 
 .header_logo img{
